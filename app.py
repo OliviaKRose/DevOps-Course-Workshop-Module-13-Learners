@@ -11,7 +11,7 @@ from azure.monitor.opentelemetry import configure_azure_monitor
 import logging
 
 logging.basicConfig(level=logging.INFO)
-configure_azure_monitor(enable_live_metrics = True)
+configure_azure_monitor(enable_live_metrics = False)
 
 app = Flask(__name__)
 app.config.from_object(Config)
