@@ -72,7 +72,7 @@ def set_scenario():
         app.config["FINANCE_PACKAGE_URL"] + "/scenario",
         json=scenario
     )
-    app.logger.info("Response from endpoint 2: " + response.text)
+    app.logger.info("Response from endpoint v2: " + response.text)
 
     response.raise_for_status()
 
