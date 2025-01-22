@@ -8,8 +8,6 @@ variables:
   # REPLACE THIS, and set DOCKERHUB_TOKEN & AZURE_WEBHOOK in pipeline variables
   # Make sure that "Expand Variable" is **off** for the webhook, and that both secrets are masked
   DOCKERHUB_USERNAME: oliros
-  AZURE_WEBHOOK: https://$cohort32-33-oli-ros-order-processing-app:muweuEKN76ztomJC65rfFhyMjzqmx02Fjjh6Jvr3dc5TitKY659KHgfmGgdt@cohort32-33-oli-ros-order-processing-app.scm.azurewebsites.net/api/registry/webhook
-  DOCKERHUB_TOKEN: dckr_pat_TLfkA45N5SoKzlKTqiLu3KuLu7o
 
 deploy:
   stage: deploy
